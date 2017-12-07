@@ -1,0 +1,9 @@
+C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\7.3.exe.config
+C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\7.3.exe
+C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\7.3.pdb
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\7.3.csprojResolveAssemblyReference.cache
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\_7._3.Properties.Resources.resources
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\7.3.csproj.GenerateResource.Cache
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\7.3.csproj.CoreCompileInputs.cache
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\7.3.exe
+C:\Users\Entertaiment\Desktop\6.1\7.3\obj\Debug\7.3.pdb

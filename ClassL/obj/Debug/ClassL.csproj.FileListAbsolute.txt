@@ -1,0 +1,6 @@
+C:\Users\Entertaiment\Desktop\6.1\ClassL\bin\Debug\ClassL.dll
+C:\Users\Entertaiment\Desktop\6.1\ClassL\bin\Debug\ClassL.pdb
+C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
+C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.dll
+C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.pdb
+C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
