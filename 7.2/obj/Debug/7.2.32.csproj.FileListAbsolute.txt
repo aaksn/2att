@@ -14,3 +14,14 @@ C:\Users\Entertaiment\Desktop\6.1\7.2\obj\Debug\7.2.exe
 C:\Users\Entertaiment\Desktop\6.1\7.2\obj\Debug\7.2.pdb
 C:\Users\Entertaiment\Desktop\6.1\7.2\bin\Debug\ClassL.dll
 C:\Users\Entertaiment\Desktop\6.1\7.2\bin\Debug\ClassL.pdb
+F:\GitHub\2att\7.2\bin\Debug\7.2.exe.config
+F:\GitHub\2att\7.2\bin\Debug\7.2.exe
+F:\GitHub\2att\7.2\bin\Debug\7.2.pdb
+F:\GitHub\2att\7.2\bin\Debug\ClassL.dll
+F:\GitHub\2att\7.2\bin\Debug\ClassL.pdb
+F:\GitHub\2att\7.2\obj\Debug\7.2.32.csprojResolveAssemblyReference.cache
+F:\GitHub\2att\7.2\obj\Debug\_7._2.Properties.Resources.resources
+F:\GitHub\2att\7.2\obj\Debug\7.2.32.csproj.GenerateResource.Cache
+F:\GitHub\2att\7.2\obj\Debug\7.2.32.csproj.CoreCompileInputs.cache
+F:\GitHub\2att\7.2\obj\Debug\7.2.exe
+F:\GitHub\2att\7.2\obj\Debug\7.2.pdb

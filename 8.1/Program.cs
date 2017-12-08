@@ -1,46 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 
-
-
-namespace _9._1
+namespace _8._1
 {
     static class Program
     {
+        
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        static void Main(string[] args)
+        static void Main()
         {
-            if (args.Length > 0)
-            {
-                AllocConsole();
-                foreach (var item in args)
-                {
-                    System.Console.WriteLine(item);
-                }               
-                Console.WriteLine("Для выхода наберите exit.");
-                Console.ReadKey();
-            }
-            else 
-            {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new Form1());
-            }
-            
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
-
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        private static extern bool AllocConsole();
-
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        private static extern bool FreeConsole();
     }
 }
+

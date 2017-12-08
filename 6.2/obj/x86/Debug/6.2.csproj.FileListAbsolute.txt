@@ -1,6 +1,0 @@
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\bin\Debug\6.2.exe
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\bin\Debug\6.2.pdb
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\obj\x86\Debug\_6._2.Properties.Resources.resources
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\obj\x86\Debug\6.2.exe
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\obj\x86\Debug\6.2.pdb
-\\csfs\home$\aksenov_a_a\Profile\Desktop\VS\6.1\6.2\obj\x86\Debug\6.2.csproj.GenerateResource.Cache

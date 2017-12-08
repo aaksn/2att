@@ -5,26 +5,38 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using U
+using ClassL;
 
-namespace _9._1
+namespace _8._1
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            DataGridViewUtils.InitGridForArr(arr1FromDataGridView, 40, false, false, true, false, true);
-            DataGridViewUtils.InitGridForArr(arr1ToDataGridView, 40, true, false, false, false, false);
-
-            DataGridViewUtils.InitGridForArr(arr2FromDataGridView, 40, false, true, true, true, true);
-            DataGridViewUtils.InitGridForArr(arr2ToDataGridView, 40, true, true, true, true, true);
-
+        }        
+        private void Go_Click(object sender, EventArgs e)
+        {            
+            //1
+            Label label4 = new Label
+            {
+                AutoSize = true,
+                Font = new System.Drawing.Font("Arial Narrow", 15.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204))),
+                Location = new System.Drawing.Point(12, 50),
+                Name = "label3",
+                Size = new System.Drawing.Size(108, 22),
+                TabIndex = 0,
+                Text = "Результат:"
+            };
+            this.Controls.Add(label4);
+            List<double> list = Utils.StringToList<double>(input.Text, ' ');
+            Eight logic = new Eight(list);
+            List<double> ll;
+            logic.ListReverse(out ll);
+            label2.Text = Utils.ListtoString<double>(ll, ' ');
         }
     }
 }
+
