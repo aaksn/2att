@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace ClassL
 {
-    class Nine
+    public class Nine
     {
+        public int[,] Mas { get; set; }
+
+        public Nine(int[,] mas)
+        {
+            Mas = mas;
+        }
+        public void Process(out int[,] res) 
+        {
+            res = Mas;            
+            
+        }
     }
 }

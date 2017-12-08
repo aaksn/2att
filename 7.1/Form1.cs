@@ -30,7 +30,7 @@ namespace _7._1
                 Text = "Сумма:"
             };
             this.Controls.Add(label4);
-            double[] words = Utils.StrToArray<double>(input.Text);
+            double[] words = UtilsW.StrToArray<double>(input.Text);
             Seven logic = new Seven(words);
             double result;
             logic.ProductOfN(out result);

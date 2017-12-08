@@ -31,7 +31,7 @@ namespace _7._2
                 Text = "Позиция:"
             };
             this.Controls.Add(label4);
-            int[] words = Utils.StrToArray<int>(input.Text);
+            int[] words = UtilsW.StrToArray<int>(input.Text);
             Seven2 logic = new Seven2(words);
             int result;
             logic.MinusEPosition(out result);

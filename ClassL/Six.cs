@@ -17,7 +17,7 @@ namespace ClassL
         public void CountA(out int sum, int h, char w)
         {
             sum = 0;
-            string[] words = Utils.StrToArray<string>(Str);
+            string[] words = UtilsW.StrToArray<string>(Str);
             for (int i = 0; i < words.Length; i++)
             {
                 int count = 0;

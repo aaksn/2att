@@ -10,7 +10,7 @@ using System.Diagnostics;
 
 namespace Utils
 {
-    class IOUtils
+    public class IOUtils
     {
         public static readonly string
             ExeName = Path.GetFileName(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName),

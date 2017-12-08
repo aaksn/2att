@@ -7,7 +7,7 @@ using System.Globalization;
 
 namespace ClassL
 {
-    public class Utils
+    public class UtilsW
     {
         // Функция конвертирует строку в массив элементов T
         // (при невозможности конвертации происходит ошибка)

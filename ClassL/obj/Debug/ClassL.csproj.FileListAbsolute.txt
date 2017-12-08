@@ -11,7 +11,6 @@ G:\6.1\ClassL\obj\Debug\ClassL.dll
 G:\6.1\ClassL\obj\Debug\ClassL.pdb
 F:\GitHub\2att\ClassL\bin\Debug\ClassL.dll
 F:\GitHub\2att\ClassL\bin\Debug\ClassL.pdb
-F:\GitHub\2att\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.dll
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.pdb

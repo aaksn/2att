@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1.1", "6.1\6.1.1.csproj", "{4B8EC29D-3009-4052-8634-378BB44A5A07}"
 EndProject
@@ -17,9 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassL", "ClassL\ClassL.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utls", "Utls", "{5EB46192-FD1D-4D66-8DE5-848D8439EC8A}"
 	ProjectSection(SolutionItems) = preProject
+		Utils\ArrayUtils.cs = Utils\ArrayUtils.cs
 		Utils\CommandLine.cs = Utils\CommandLine.cs
 		Utils\ConsoleAppUtils.cs = Utils\ConsoleAppUtils.cs
 		Utils\DataGridViewUtils.cs = Utils\DataGridViewUtils.cs
+		Utils\FormsUtils.cs = Utils\FormsUtils.cs
 		Utils\GridViewUtils.cs = Utils\GridViewUtils.cs
 		Utils\IOUtils.cs = Utils\IOUtils.cs
 	EndProjectSection
