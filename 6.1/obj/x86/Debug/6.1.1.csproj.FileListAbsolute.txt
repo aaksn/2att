@@ -21,3 +21,6 @@ C:\Users\Entertaiment\Desktop\6.1\6.1\obj\x86\Debug\6.1.pdb
 F:\6.1\6.1\bin\Debug\6.1.exe.config
 F:\6.1\6.1\obj\x86\Debug\6.1.exe
 F:\6.1\6.1\obj\x86\Debug\6.1.pdb
+G:\6.1\6.1\bin\Debug\6.1.exe.config
+G:\6.1\6.1\obj\x86\Debug\6.1.exe
+G:\6.1\6.1\obj\x86\Debug\6.1.pdb

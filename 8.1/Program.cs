@@ -10,9 +10,6 @@ namespace _9._1
 {
     static class Program
     {
-        public static void 
-        
-        
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -37,6 +34,7 @@ namespace _9._1
             }
             
         }
+
         [DllImport("kernel32.dll", SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
         private static extern bool AllocConsole();
@@ -44,7 +42,5 @@ namespace _9._1
         [DllImport("kernel32.dll", SetLastError = true)]
         [return: MarshalAs(UnmanagedType.Bool)]
         private static extern bool FreeConsole();
-        
-        
     }
 }

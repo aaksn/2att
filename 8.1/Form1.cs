@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using U
 
 namespace _9._1
 {
@@ -15,10 +16,15 @@ namespace _9._1
         {
             InitializeComponent();
         }
-        private void Go_Click(object sender, EventArgs e)
+
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            
-            
+            DataGridViewUtils.InitGridForArr(arr1FromDataGridView, 40, false, false, true, false, true);
+            DataGridViewUtils.InitGridForArr(arr1ToDataGridView, 40, true, false, false, false, false);
+
+            DataGridViewUtils.InitGridForArr(arr2FromDataGridView, 40, false, true, true, true, true);
+            DataGridViewUtils.InitGridForArr(arr2ToDataGridView, 40, true, true, true, true, true);
+
         }
     }
 }

@@ -19,11 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utls", "Utls", "{5EB46192-F
 	ProjectSection(SolutionItems) = preProject
 		Utils\CommandLine.cs = Utils\CommandLine.cs
 		Utils\ConsoleAppUtils.cs = Utils\ConsoleAppUtils.cs
+		Utils\DataGridViewUtils.cs = Utils\DataGridViewUtils.cs
 		Utils\GridViewUtils.cs = Utils\GridViewUtils.cs
 		Utils\IOUtils.cs = Utils\IOUtils.cs
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1.1_n", "..\Лекция 09. Оконный интерфейс (Windows Forms)\Task8Forms1Sample\9.1.1_n.csproj", "{43213295-0CDE-4A48-B75A-268EBBCB958F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,12 +74,6 @@ Global
 		{EC7B56CC-1839-48AD-B565-AF080623DBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EC7B56CC-1839-48AD-B565-AF080623DBFB}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC7B56CC-1839-48AD-B565-AF080623DBFB}.Release|x86.Build.0 = Release|Any CPU
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Debug|x86.ActiveCfg = Debug|x86
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Debug|x86.Build.0 = Debug|x86
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Release|Any CPU.ActiveCfg = Release|x86
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Release|x86.ActiveCfg = Release|x86
-		{43213295-0CDE-4A48-B75A-268EBBCB958F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

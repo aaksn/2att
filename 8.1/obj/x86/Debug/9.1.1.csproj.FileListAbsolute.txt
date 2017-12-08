@@ -15,3 +15,14 @@ C:\Users\Entertaiment\Desktop\6.1\8.1\obj\x86\Debug\9.1.pdb
 F:\6.1\8.1\bin\Debug\9.1.exe.config
 F:\6.1\8.1\obj\x86\Debug\9.1.exe
 F:\6.1\8.1\obj\x86\Debug\9.1.pdb
+G:\6.1\8.1\bin\Debug\9.1.exe.config
+G:\6.1\8.1\obj\x86\Debug\9.1.exe
+G:\6.1\8.1\obj\x86\Debug\9.1.pdb
+G:\6.1\8.1\obj\x86\Debug\9.1.1.csprojResolveAssemblyReference.cache
+G:\6.1\8.1\obj\x86\Debug\_9._1.Form1.resources
+G:\6.1\8.1\obj\x86\Debug\_9._1.Properties.Resources.resources
+G:\6.1\8.1\obj\x86\Debug\9.1.1.csproj.GenerateResource.Cache
+G:\6.1\8.1\bin\Debug\9.1.exe
+G:\6.1\8.1\bin\Debug\9.1.pdb
+G:\6.1\8.1\bin\Debug\ClassL.dll
+G:\6.1\8.1\bin\Debug\ClassL.pdb

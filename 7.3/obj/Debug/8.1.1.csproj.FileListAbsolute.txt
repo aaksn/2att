@@ -14,3 +14,9 @@ C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\7.3.exe
 C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\7.3.pdb
 C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\ClassL.dll
 C:\Users\Entertaiment\Desktop\6.1\7.3\bin\Debug\ClassL.pdb
+G:\6.1\7.3\bin\Debug\7.3.exe.config
+G:\6.1\7.3\obj\Debug\7.3.exe
+G:\6.1\7.3\obj\Debug\7.3.pdb
+G:\6.1\7.3\obj\Debug\8.1.1.csprojResolveAssemblyReference.cache
+G:\6.1\7.3\obj\Debug\_7._3.Properties.Resources.resources
+G:\6.1\7.3\obj\Debug\8.1.1.csproj.GenerateResource.Cache

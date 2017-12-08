@@ -4,3 +4,8 @@ C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.csproj.CoreCompileInpu
 C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.dll
 C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.pdb
 C:\Users\Entertaiment\Desktop\6.1\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
+G:\6.1\ClassL\bin\Debug\ClassL.dll
+G:\6.1\ClassL\bin\Debug\ClassL.pdb
+G:\6.1\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
+G:\6.1\ClassL\obj\Debug\ClassL.dll
+G:\6.1\ClassL\obj\Debug\ClassL.pdb
