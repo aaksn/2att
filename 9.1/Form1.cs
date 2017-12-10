@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Utils;
 using ClassL;
+using System.IO;
 
 
 namespace _9._1
@@ -53,17 +54,55 @@ namespace _9._1
 
         private void inputFromFileButton_Click(object sender, EventArgs e)
         {
-            
+            if (inputOpenFileDialog.ShowDialog() == DialogResult.OK)
+                try
+                {
+                    inputOpenFileDialog.InitialDirectory = Path.GetDirectoryName(inputOpenFileDialog.FileName);
+
+                    int[,] input;
+                    Nine.ReadInputFromFile(inputOpenFileDialog.FileName,' ', out input);
+                    DataGridViewUtils.ArrayToGrid(arr2FromDataGridView, input);
+                }
+                catch (Exception except)
+                {
+                    FormsUtils.ErrorMessageBox(except);
+                }
         }
 
         private void inputToFileButton_Click(object sender, EventArgs e)
         {
+            if (inputSaveFileDialog.ShowDialog() == DialogResult.OK)
+                try
+                {
+                    inputSaveFileDialog.InitialDirectory = Path.GetDirectoryName(inputSaveFileDialog.FileName);
+
+                    int[,] input = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
+                    Nine.WriteInputIntoFile(inputSaveFileDialog.FileName, input);
+                }
+                catch (Exception except)
+                {
+                    FormsUtils.ErrorMessageBox(except);
+                }
 
         }
 
         private void outputToFileButton_Click(object sender, EventArgs e)
         {
+            if (outputSaveFileDialog.ShowDialog() == DialogResult.OK)
+                try
+                {
+                    outputSaveFileDialog.InitialDirectory = Path.GetDirectoryName(outputSaveFileDialog.FileName);
+                    int[,] output = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
+                    Nine.WriteInputIntoFile(outputSaveFileDialog.FileName, output);
 
+                    /*IList<int> output = DataGridViewUtils.GridToList<int>(arr2ToDataGridView);
+                    Nine.WriteOutputIntoFile(outputSaveFileDialog.FileName, output);
+                    */
+                }
+                catch (Exception except)
+                {
+                    FormsUtils.ErrorMessageBox(except);
+                }
         }
     }
 }

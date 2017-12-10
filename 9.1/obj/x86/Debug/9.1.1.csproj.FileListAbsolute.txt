@@ -26,7 +26,6 @@ G:\6.1\8.1\bin\Debug\9.1.exe
 G:\6.1\8.1\bin\Debug\9.1.pdb
 G:\6.1\8.1\bin\Debug\ClassL.dll
 G:\6.1\8.1\bin\Debug\ClassL.pdb
-F:\GitHub\2att\9.1\obj\x86\Debug\9.1.1.csprojResolveAssemblyReference.cache
 F:\GitHub\2att\9.1\obj\x86\Debug\_9._1.Form1.resources
 F:\GitHub\2att\9.1\obj\x86\Debug\_9._1.Properties.Resources.resources
 F:\GitHub\2att\9.1\obj\x86\Debug\9.1.1.csproj.GenerateResource.Cache
@@ -38,3 +37,4 @@ F:\GitHub\2att\9.1\bin\Debug\9.1.exe
 F:\GitHub\2att\9.1\bin\Debug\9.1.pdb
 F:\GitHub\2att\9.1\bin\Debug\ClassL.dll
 F:\GitHub\2att\9.1\bin\Debug\ClassL.pdb
+F:\GitHub\2att\9.1\obj\x86\Debug\9.1.1.csprojResolveAssemblyReference.cache
