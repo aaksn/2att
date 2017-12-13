@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
+using ClassL;
+using Utils;
 
 
 namespace _9._1
@@ -19,12 +20,26 @@ namespace _9._1
             if (args.Length > 0)
             {
                 AllocConsole();
-                foreach (var item in args)
+                /*foreach (var item in args)
                 {
                     System.Console.WriteLine(item);
                 }               
                 Console.WriteLine("Для выхода наберите exit.");
-                Console.ReadKey();
+                Console.ReadKey();*/
+                Nine.ParseArgs(args, out string inputFile, out string outputFile);
+                Nine.ReadInputFromFile(inputFile, ' ', out int[,] res);
+                try
+                {                    
+                    Nine logic = new Nine(res);
+                    logic.Process(out int[,] res1);
+                    Nine.WriteInputIntoFile(outputFile, res1);
+                }
+                catch (Exception except)
+                {
+                    Console.WriteLine(except);
+                   
+                }
+                
             }
             else 
             {

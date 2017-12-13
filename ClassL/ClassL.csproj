@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="ArrayUtils.cs" />
     <Compile Include="Base.cs" />
+    <Compile Include="CommandLine.cs" />
+    <Compile Include="ConsoleAppUtils.cs" />
     <Compile Include="DataGridViewUtils.cs" />
     <Compile Include="Eight.cs" />
     <Compile Include="FormsUtils.cs" />

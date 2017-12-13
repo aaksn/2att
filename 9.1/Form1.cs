@@ -92,7 +92,7 @@ namespace _9._1
                 try
                 {
                     outputSaveFileDialog.InitialDirectory = Path.GetDirectoryName(outputSaveFileDialog.FileName);
-                    int[,] output = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
+                    int[,] output = DataGridViewUtils.GridToArray2<int>(arr2ToDataGridView);
                     Nine.WriteInputIntoFile(outputSaveFileDialog.FileName, output);
 
                     /*IList<int> output = DataGridViewUtils.GridToList<int>(arr2ToDataGridView);
