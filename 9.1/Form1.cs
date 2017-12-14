@@ -11,6 +11,7 @@ using ClassL;
 using System.IO;
 
 
+
 namespace _9._1
 {
     public partial class Form1 : Form
@@ -60,7 +61,7 @@ namespace _9._1
                     inputOpenFileDialog.InitialDirectory = Path.GetDirectoryName(inputOpenFileDialog.FileName);
 
                     int[,] input;
-                    Nine.ReadInputFromFile(inputOpenFileDialog.FileName,' ', out input);
+                    UtilsW.ReadInputFromFile(inputOpenFileDialog.FileName,' ', out input);
                     DataGridViewUtils.ArrayToGrid(arr2FromDataGridView, input);
                 }
                 catch (Exception except)
@@ -77,7 +78,7 @@ namespace _9._1
                     inputSaveFileDialog.InitialDirectory = Path.GetDirectoryName(inputSaveFileDialog.FileName);
 
                     int[,] input = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
-                    Nine.WriteInputIntoFile(inputSaveFileDialog.FileName, input);
+                    UtilsW.WriteInputIntoFile(inputSaveFileDialog.FileName, input);
                 }
                 catch (Exception except)
                 {
@@ -93,7 +94,7 @@ namespace _9._1
                 {
                     outputSaveFileDialog.InitialDirectory = Path.GetDirectoryName(outputSaveFileDialog.FileName);
                     int[,] output = DataGridViewUtils.GridToArray2<int>(arr2ToDataGridView);
-                    Nine.WriteInputIntoFile(outputSaveFileDialog.FileName, output);
+                    UtilsW.WriteInputIntoFile(outputSaveFileDialog.FileName, output);
 
                     /*IList<int> output = DataGridViewUtils.GridToList<int>(arr2ToDataGridView);
                     Nine.WriteOutputIntoFile(outputSaveFileDialog.FileName, output);

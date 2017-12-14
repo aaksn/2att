@@ -1,0 +1,12 @@
+F:\GitHub\2att\10.1.1\bin\Debug\10.1.1.exe.config
+F:\GitHub\2att\10.1.1\bin\Debug\10.1.1.exe
+F:\GitHub\2att\10.1.1\bin\Debug\10.1.1.pdb
+F:\GitHub\2att\10.1.1\bin\Debug\ClassL.dll
+F:\GitHub\2att\10.1.1\bin\Debug\ClassL.pdb
+F:\GitHub\2att\10.1.1\obj\Debug\10.1.1.csprojResolveAssemblyReference.cache
+F:\GitHub\2att\10.1.1\obj\Debug\_9._1.Form1.resources
+F:\GitHub\2att\10.1.1\obj\Debug\_10._1._1.Properties.Resources.resources
+F:\GitHub\2att\10.1.1\obj\Debug\10.1.1.csproj.GenerateResource.Cache
+F:\GitHub\2att\10.1.1\obj\Debug\10.1.1.csproj.CoreCompileInputs.cache
+F:\GitHub\2att\10.1.1\obj\Debug\10.1.1.exe
+F:\GitHub\2att\10.1.1\obj\Debug\10.1.1.pdb

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using System.IO;
 
 namespace ClassL
 {
@@ -52,6 +53,55 @@ namespace ClassL
             } while (position > 0);
             return list;
         }
-        
+        //Работа с файлами
+        //чтение многомерного массива из файла
+        public static void ReadInputFromFile(string filename, char w, out int[,] res)
+        {
+
+            string[] lines = File.ReadAllLines(filename).ToArray();
+            //заводим массив
+            int count = 1;
+            foreach (char c in lines[1])
+                if (c == w)
+                {
+                    count++;
+                }
+            int[,] arr = new int[lines.Length, count];
+            // разбор в массив
+            for (int i = 0; i < lines.Length; i++)
+            {
+                int[] row = lines[i].Split(new char[] { w }, StringSplitOptions.RemoveEmptyEntries).Select(Int32.Parse).ToArray();
+                for (int j = 0; j < count; j++)
+                {
+                    arr[i, j] = row[j];
+                }
+            }
+            res = arr;
+        }
+
+
+
+        // запись входных данных в файл
+        public static void WriteInputIntoFile(string filename, int[,] input)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < input.GetLength(0); i++)
+            {
+                for (int j = 0; j < input.GetLength(1); j++)
+                {
+                    if (j == input.GetLength(1) - 1)
+                    {
+                        sb.Append(input[i, j].ToString());
+                    }
+                    else sb.Append(input[i, j].ToString() + ' ');
+                }
+                if (i != input.GetLength(0) - 1)
+                {
+                    sb.AppendLine();
+                }
+            }
+            File.WriteAllText(filename, sb.ToString());
+        }
+
     }
 }

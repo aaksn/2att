@@ -16,7 +16,7 @@ namespace Utils
         public static void InitGridForArr(DataGridView dgv, 
                 int defaultColWidth, bool readOnly,
                 bool showRowsIndexes, bool showColsIndexes,
-                bool changeRowsCountButtons, bool changeColsCountButtons,
+                bool changeRowsCountButtons, bool changeColsCountButtons,                
                 int changeButtonsSize = 22, int changeButtonsMargin = 6) {
             List<Button> buttons = new List<Button>();
 

@@ -9,6 +9,44 @@ using Utils;
 
 namespace ClassL
 {
+    public class Nine2
+    {
+        public int[,] Mas { get; set; }
+
+        public Nine2(int[,] mas)
+        {
+            if (mas.GetLength(0) == mas.GetLength(1))
+            {
+                Mas = mas;
+            }
+        }
+        public void Process(out int[,] res, out int resmin)
+        {
+            int n = Mas.GetLength(0);
+            int[] res1 = new int[n];  //массив для хранения сумм столбцов
+            int summ1 = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    summ1 += Math.Abs(Mas[j, i]);   //суммируем элементы столбцов
+                }
+                res1[i] = summ1; //пишем сумму в массив
+                summ1 = 0; //обнуляем переменную
+            }
+
+            int min = res1.Min();// находим минимальную сумму
+            //заполнение нового массива
+            int[,] result = new int[1, n];
+            for (int j = 0; j < n; j++)
+            {
+                result[0, j] = res1[j];
+            }
+            resmin = min;
+            res = result;
+        }
+
+    }
     public class Nine
     {
         public int[,] Mas { get; set; }
@@ -17,7 +55,7 @@ namespace ClassL
         {
             Mas = mas;
         }
-        public void Process(out int[,] res) 
+        public void Process(out int[,] res)
         {
             int n = Mas.GetLength(0);
             int n1 = Mas.GetLength(1);
@@ -48,68 +86,21 @@ namespace ClassL
                 for (int y = 0; y < n1; y++)
                 {
                     result[x, y] = Mas[x, y];
-                    
-                    if (y==min)
+
+                    if (y == min)
                     {
-                        result[x, y] = Mas[x, max];                    
+                        result[x, y] = Mas[x, max];
                     }
                     if (y == max)
                     {
                         result[x, y] = Mas[x, min];
                     }
-                }                
-            }
-
-            res = result; 
-        }
-
-        //чтение многомерного массива из файла
-        public static void ReadInputFromFile(string filename, char w, out int[,] res)
-        {                        
-            string[] lines = File.ReadAllLines(filename).ToArray();
-            //заводим массив
-            int count = 1;
-            foreach (char c in lines[1])
-                if (c == w)
-                {
-                    count++;                    
-                }
-            int[,] arr = new int[lines.Length, count];
-            // разбор в массив
-            for (int i = 0; i < lines.Length; i++)
-            {
-                int[] row = lines[i].Split(new char[] { w }, StringSplitOptions.RemoveEmptyEntries).Select(Int32.Parse).ToArray();
-                for (int j = 0; j < count; j++)
-                {
-                    arr[i, j] = row[j];
                 }
             }
-            res = arr;
-        }
+
+            res = result;
         
-
-
-        // запись входных данных в файл
-        public static void WriteInputIntoFile(string filename, int[,] input)
-        {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < input.GetLength(0); i++)
-            {                
-                for (int j = 0; j < input.GetLength(1); j++)
-                {
-                    if (j==input.GetLength(1) - 1)
-                    {
-                        sb.Append(input[i, j].ToString());
-                    }
-                    else sb.Append(input[i, j].ToString()+' ');                    
-                }
-                if (i != input.GetLength(0) - 1)
-                {
-                    sb.AppendLine();
-                }                                
-            }
-            File.WriteAllText(filename, sb.ToString());
-        }
+    }
         //Работа с консолью
         public static void PrintHelp()
         {
@@ -134,11 +125,7 @@ namespace ClassL
             if (cmdLine["help", "h"] != null || args.Length > 0 && args[0] == "/?")
             {
                 PrintHelp();
-                
-                // код воврата 0 - корректное завершение программы
-                
-                Environment.Exit(0);
-                
+                Console.ReadKey();
             }
 
             inputFile = cmdLine["input-file", "i"];
@@ -153,8 +140,6 @@ namespace ClassL
             if (!File.Exists(inputFile))
             {
                 ConsoleAppUtils.ErrorWriteLine("Файл {0} не найден!", inputFile);
-                // код воврата отличен от 0 - ошибочное завершение программы
-                Environment.Exit(2);
             }
         }
     }
