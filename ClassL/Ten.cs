@@ -23,7 +23,7 @@ namespace ClassL
             double[] res1 = new double[n];  //массив для хранения информации о коэфицентах           
             for (int i = 0; i < n; i++)
             {
-                res1[i] = Mas[i, 0] / Mas[i, 1];
+                res1[i] = (double) Mas[i, 0] / Mas[i, 1];
             }
             // Словарь с числами и их количеством
             Dictionary<double, int> repeats = new Dictionary<double, int>();
@@ -45,14 +45,15 @@ namespace ClassL
             int k = 0;
             for (int x = 0; x < n; x++)
             {
-                if (((Mas[x, 0] / Mas[x, 1]) - key)<0.001)
-                {
+
+                if (((double) Mas[x, 0] / Mas[x, 1])==key)
+                {                    
                     for (int j = 0; j < 3; j++)//заполнение массива
                     {
                         result[k, j] = Mas[x, j];
                     }
                     k++;
-                }
+                }                
             }
             res = result;
             maxi = max;
