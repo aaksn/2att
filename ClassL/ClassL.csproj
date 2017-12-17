@@ -53,6 +53,7 @@
     <Compile Include="DataGridViewUtils.cs" />
     <Compile Include="Eight.cs" />
     <Compile Include="FormsUtils.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="IOUtils.cs" />
     <Compile Include="Nine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
