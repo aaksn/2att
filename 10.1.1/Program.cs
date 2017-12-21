@@ -7,7 +7,7 @@ using ClassL;
 using Utils;
 
 
-namespace _9._1
+namespace _10._1
 {
     static class Program
     {
@@ -19,8 +19,8 @@ namespace _9._1
         {
             if (args.Length > 0)
             {
-                AllocConsole();                
-                Nine.ParseArgs(args, out string inputFile, out string outputFile);
+                AllocConsole();
+                ConsoleAppUtils.ParseArgs(args, out string inputFile, out string outputFile);
                 UtilsW.ReadInputFromFile(inputFile, ' ', out int[,] res);                
                 try
                 {

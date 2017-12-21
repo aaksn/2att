@@ -16,6 +16,10 @@ namespace _13._33._1
 {
     public partial class Form1 : Form
     {
+        /*
+         * 33.	Игра "Линии". Подробнее о правилах в GameInfo.doc
+         * */
+
         private Game game = new Game();
         public Form1()
         {
@@ -90,12 +94,7 @@ namespace _13._33._1
             {
                 game.LeftMouseClick(e.RowIndex, e.ColumnIndex);
                 UpdateView();
-            }
-            /*DataGridView dgv = (DataGridView)sender;
-            if (e.Button == MouseButtons.Left)
-                dgv[e.ColumnIndex, e.RowIndex].Value = 1;
-            if (e.Button == MouseButtons.Right)
-                dgv[e.ColumnIndex, e.RowIndex].Value = null;*/
+            }           
         }
 
         private void Form1_Load(object sender, EventArgs e)

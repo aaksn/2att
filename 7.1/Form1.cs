@@ -12,6 +12,10 @@ namespace _7._1
 {
     public partial class Form1 : Form
     {
+        /*
+ * 1.	Дан массив размера N. Вычислить сумму произведений всех пар соседних чисел.
+ * | В input ввести строку с числами, разделённую пробелами
+ * */
         public Form1()
         {
             InitializeComponent();

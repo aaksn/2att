@@ -1,7 +1,6 @@
 F:\GitHub\2att\13.33.1\bin\Debug\13.33.1.exe.config
 F:\GitHub\2att\13.33.1\bin\Debug\13.33.1.exe
 F:\GitHub\2att\13.33.1\bin\Debug\13.33.1.pdb
-F:\GitHub\2att\13.33.1\obj\Debug\13.33.1.csprojResolveAssemblyReference.cache
 F:\GitHub\2att\13.33.1\obj\Debug\_13._33._1.Form1.resources
 F:\GitHub\2att\13.33.1\obj\Debug\_13._33._1.Properties.Resources.resources
 F:\GitHub\2att\13.33.1\obj\Debug\13.33.1.csproj.GenerateResource.Cache
@@ -10,3 +9,4 @@ F:\GitHub\2att\13.33.1\obj\Debug\13.33.1.exe
 F:\GitHub\2att\13.33.1\obj\Debug\13.33.1.pdb
 F:\GitHub\2att\13.33.1\bin\Debug\ClassL.dll
 F:\GitHub\2att\13.33.1\bin\Debug\ClassL.pdb
+F:\GitHub\2att\13.33.1\obj\Debug\13.33.1.csprojResolveAssemblyReference.cache

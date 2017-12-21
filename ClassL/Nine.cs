@@ -101,46 +101,6 @@ namespace ClassL
             res = result;
         
     }
-        //Работа с консолью
-        public static void PrintHelp()
-        {
-            string
-                help = string.Format(@"
-Назначение: Первый столбец с минимальной суммой элементов меняет местами с последним столбцом с максимальной суммой элементов.
-Использование: {0} параметры
-Параметры:
-  -i, --input-file=ФАЙЛ     входной файл (обязательный параметр)
-  -o, --output-file=ФАЙЛ    выходной файл (обязательный параметр)
-  -h, --help                показать справку
-                    ".Trim(),
-                    ConsoleAppUtils.ExeName
-                );
-
-            Console.WriteLine(help);
-        }
-        public static void ParseArgs(string[] args, out string inputFile, out string outputFile)
-        {
-            CommandLine cmdLine = new CommandLine(args);
-
-            if (cmdLine["help", "h"] != null || args.Length > 0 && args[0] == "/?")
-            {
-                PrintHelp();
-                Console.ReadKey();
-            }
-
-            inputFile = cmdLine["input-file", "i"];
-            outputFile = cmdLine["output-file", "o"];
-
-            if (
-                inputFile == null || inputFile == "false" ||
-                outputFile == null || outputFile == "false"
-            )
-                ConsoleAppUtils.PrintParamsErrorAndExit();
-
-            if (!File.Exists(inputFile))
-            {
-                ConsoleAppUtils.ErrorWriteLine("Файл {0} не найден!", inputFile);
-            }
-        }
+        
     }
 }

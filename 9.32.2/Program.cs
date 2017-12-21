@@ -7,7 +7,7 @@ using ClassL;
 using Utils;
 using System.IO;
 
-namespace _9._1
+namespace _9._2
 {
     static class Program
     {
@@ -20,14 +20,7 @@ namespace _9._1
             if (args.Length > 0)
             {
                 AllocConsole();
-                /*foreach (var item in args)
-                {
-                    System.Console.WriteLine(item);
-                }               
-                Console.WriteLine("Для выхода наберите exit.");
-                Console.ReadKey(); */
-                
-                Nine.ParseArgs(args, out string inputFile, out string outputFile);
+                ConsoleAppUtils.ParseArgs(args, out string inputFile, out string outputFile);
                 UtilsW.ReadInputFromFile(inputFile, ' ', out int[,] res);
                 try
                 {                    

@@ -1,4 +1,4 @@
-﻿namespace _9._1
+﻿namespace _9._2
 {
     partial class Form1
     {

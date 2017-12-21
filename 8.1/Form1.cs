@@ -13,6 +13,9 @@ namespace _8._1
 {
     public partial class Form1 : Form
     {
+        /*
+         * 1.	Перевернуть числа в списке слева направо | В input ввести строку с числами, разделённую пробелами
+         * */
         public Form1()
         {
             InitializeComponent();

@@ -11,10 +11,14 @@ using ClassL;
 using System.IO;
 
 
-namespace _9._1
+namespace _9._2
 {
     public partial class Form1 : Form
     {
+        /*
+         * 32.	В заданной матрице А(nn) найти минимум всех сумм абсолютных величин элементов матрицы по столбцам.
+         * | Для работы через консоль в параметрах командной строки указать --input-file='Путь к входным данным' --output-file='Путь к выходным данным'
+         * */
         public Form1()
         {
             InitializeComponent();
