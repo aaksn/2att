@@ -24,9 +24,8 @@ namespace _9._1
                 UtilsW.ReadInputFromFile(inputFile, ' ', out int[,] res);
                 try
                 {                    
-                    Nine logic = new Nine(res);
-                    logic.Process(out int[,] res1);
-                    UtilsW.WriteInputIntoFile(outputFile, res1);
+                    Nine logic = new Nine(res);                    
+                    UtilsW.WriteInputIntoFile(outputFile, logic.Process());
                 }
                 catch (Exception except)
                 {

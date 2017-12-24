@@ -14,9 +14,9 @@ namespace ClassL
             Str = str;
         }
         //h - количество символов w для поиска
-        public void CountA(out int sum, int h, char w)
+        public int CountA(int h, char w)
         {
-            sum = 0;
+            int sum = 0;
             string[] words = UtilsW.StrToArray<string>(Str);
             for (int i = 0; i < words.Length; i++)
             {
@@ -30,7 +30,8 @@ namespace ClassL
                             sum++;
                         }
                     }
-            }            
+            }
+            return sum;
         }
     }
 }

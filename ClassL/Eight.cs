@@ -14,10 +14,10 @@ namespace ClassL
         {
             List = list;
         }
-        public void ListReverse(out List<double> ll)
+        public List<double> ListReverse()
         {
-            ll = List;            
-            ll.Reverse();
+            List.Reverse();
+            return List;
         }
     }
 }

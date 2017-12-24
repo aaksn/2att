@@ -9,44 +9,7 @@ using Utils;
 
 namespace ClassL
 {
-    public class Nine2
-    {
-        public int[,] Mas { get; set; }
 
-        public Nine2(int[,] mas)
-        {
-            if (mas.GetLength(0) == mas.GetLength(1))
-            {
-                Mas = mas;
-            }
-        }
-        public void Process(out int[,] res, out int resmin)
-        {
-            int n = Mas.GetLength(0);
-            int[] res1 = new int[n];  //массив для хранения сумм столбцов
-            int summ1 = 0;
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    summ1 += Math.Abs(Mas[j, i]);   //суммируем элементы столбцов
-                }
-                res1[i] = summ1; //пишем сумму в массив
-                summ1 = 0; //обнуляем переменную
-            }
-
-            int min = res1.Min();// находим минимальную сумму
-            //заполнение нового массива
-            int[,] result = new int[1, n];
-            for (int j = 0; j < n; j++)
-            {
-                result[0, j] = res1[j];
-            }
-            resmin = min;
-            res = result;
-        }
-
-    }
     public class Nine
     {
         public int[,] Mas { get; set; }
@@ -55,7 +18,7 @@ namespace ClassL
         {
             Mas = mas;
         }
-        public void Process(out int[,] res)
+        public int[,] Process()
         {
             int n = Mas.GetLength(0);
             int n1 = Mas.GetLength(1);
@@ -97,10 +60,39 @@ namespace ClassL
                     }
                 }
             }
-
-            res = result;
+            return result;
         
     }
-        
+        public void Process2(out int[,] res, out int resmin)
+        {
+            int n = Mas.GetLength(0);
+            int[] res1 = new int[n];  //массив для хранения сумм столбцов
+            int summ1 = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    summ1 += Math.Abs(Mas[j, i]);   //суммируем элементы столбцов
+                }
+                res1[i] = summ1; //пишем сумму в массив
+                summ1 = 0; //обнуляем переменную
+            }
+
+            int min = res1.Min();// находим минимальную сумму
+            //заполнение нового массива
+            int[,] result = new int[1, n];
+            for (int j = 0; j < n; j++)
+            {
+                result[0, j] = res1[j];
+            }
+            resmin = min;
+            if (Mas.GetLength(0) == Mas.GetLength(1))
+            {
+                res = result;
+            }
+            else res = null;
+                
+        }
+
     }
 }

@@ -14,3 +14,15 @@ F:\GitHub\2att\ClassL\bin\Debug\ClassL.pdb
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.dll
 F:\GitHub\2att\ClassL\obj\Debug\ClassL.pdb
+G:\2att-master\ClassL\bin\Debug\ClassL.dll
+G:\2att-master\ClassL\bin\Debug\ClassL.pdb
+G:\2att-master\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
+G:\2att-master\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
+G:\2att-master\ClassL\obj\Debug\ClassL.dll
+G:\2att-master\ClassL\obj\Debug\ClassL.pdb
+H:\2att-master\ClassL\bin\Debug\ClassL.dll
+H:\2att-master\ClassL\bin\Debug\ClassL.pdb
+H:\2att-master\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
+H:\2att-master\ClassL\obj\Debug\ClassL.dll
+H:\2att-master\ClassL\obj\Debug\ClassL.pdb
+H:\2att-master\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache

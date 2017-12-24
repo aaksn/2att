@@ -38,10 +38,8 @@ namespace _7._2
             };
             this.Controls.Add(label4);
             int[] words = UtilsW.StrToArray<int>(input.Text);
-            Seven2 logic = new Seven2(words);
-            int result;
-            logic.MinusEPosition(out result);
-            label2.Text = Convert.ToString(result);
+            Seven2 logic = new Seven2(words);            
+            label2.Text = Convert.ToString(logic.MinusEPosition());
         }
     }
 }

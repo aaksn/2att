@@ -68,17 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\CommandLine.cs" />
-    <Compile Include="Interface\ConsoleAppUtils.cs" />
-    <Compile Include="Interface\DataGridViewUtils.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface\FormsUtils.cs" />
-    <Compile Include="Interface\IOUtils.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -131,6 +126,10 @@
     <ProjectReference Include="..\ClassL\ClassL.csproj">
       <Project>{ec7b56cc-1839-48ad-b565-af080623dbfb}</Project>
       <Name>ClassL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\Interface.csproj">
+      <Project>{0933591c-298e-4931-99ef-dfdedac6cc0e}</Project>
+      <Name>Interface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

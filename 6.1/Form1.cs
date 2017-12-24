@@ -36,9 +36,7 @@ namespace _6._1
             };
             this.Controls.Add(label4);
             Six logic = new Six(input.Text);
-            int Count;
-            logic.CountA(out Count, 3, 'а');
-            label2.Text = Convert.ToString(Count);
+            label2.Text = Convert.ToString(logic.CountA(3, 'а'));
         }
     }
 }

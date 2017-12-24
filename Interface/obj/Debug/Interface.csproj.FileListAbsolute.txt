@@ -1,0 +1,12 @@
+G:\2att-master\Interface\bin\Debug\Interface.dll
+G:\2att-master\Interface\bin\Debug\Interface.pdb
+G:\2att-master\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+G:\2att-master\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+G:\2att-master\Interface\obj\Debug\Interface.dll
+G:\2att-master\Interface\obj\Debug\Interface.pdb
+H:\2att-master\Interface\bin\Debug\Interface.dll
+H:\2att-master\Interface\bin\Debug\Interface.pdb
+H:\2att-master\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+H:\2att-master\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+H:\2att-master\Interface\obj\Debug\Interface.dll
+H:\2att-master\Interface\obj\Debug\Interface.pdb

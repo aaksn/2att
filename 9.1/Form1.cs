@@ -48,9 +48,8 @@ namespace _9._1
             try
             {
                 int[,] arr2 = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
-                Nine logic = new Nine(arr2);
-                logic.Process(out int[,] res);                 
-                DataGridViewUtils.ArrayToGrid(arr2ToDataGridView, res);
+                Nine logic = new Nine(arr2);                                 
+                DataGridViewUtils.ArrayToGrid(arr2ToDataGridView, logic.Process());
             }
             catch (Exception except)
             {

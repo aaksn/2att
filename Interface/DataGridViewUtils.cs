@@ -5,8 +5,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
 
-
-
 namespace Utils
 {
     public class DataGridViewUtils

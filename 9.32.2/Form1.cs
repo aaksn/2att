@@ -11,6 +11,7 @@ using ClassL;
 using System.IO;
 
 
+
 namespace _9._2
 {
     public partial class Form1 : Form
@@ -46,8 +47,8 @@ namespace _9._2
             try
             {
                 int[,] arr2 = DataGridViewUtils.GridToArray2<int>(arr2FromDataGridView);
-                Nine2 logic = new Nine2(arr2);
-                logic.Process(out int[,] res, out int resmin);                 
+                Nine logic = new Nine(arr2);
+                logic.Process2(out int[,] res, out int resmin);                 
                 DataGridViewUtils.ArrayToGrid(arr2ToDataGridView, res);
                 labelres.Text = resmin.ToString();
                 label3.Show();

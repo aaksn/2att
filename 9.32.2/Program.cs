@@ -24,8 +24,8 @@ namespace _9._2
                 UtilsW.ReadInputFromFile(inputFile, ' ', out int[,] res);
                 try
                 {                    
-                    Nine2 logic = new Nine2(res);
-                    logic.Process(out int[,] res1, out int rm);                    
+                    Nine logic = new Nine(res);
+                    logic.Process2(out int[,] res1, out int rm);                    
                     UtilsW.WriteInputIntoFile(outputFile, res1);                    
                     Console.WriteLine("Минимальная сумма по столбцам: {0}", rm.ToString());
                 }

@@ -14,9 +14,9 @@ namespace ClassL
         {
             Str = str;
         }
-        public void ProductOfN(out double sum)
+        public double ProductOfN()
         {
-            sum = 0;
+            double sum = 0;
             for (int i = 0; i < Str.Length; i++)
             {
                 if (Str.Length == 1)
@@ -31,6 +31,7 @@ namespace ClassL
                     }
                 }
             }
+            return sum;
         }
     }
     public class Seven2
@@ -41,9 +42,9 @@ namespace ClassL
         {
             Str = str;
         }
-        public void MinusEPosition(out int sum)
+        public int MinusEPosition()
         {
-            sum = 0;
+            int sum = 0;
             for (int i = 0; i < Str.Length; i++)
             {
                 if (Str.Length == 1)
@@ -64,6 +65,7 @@ namespace ClassL
                     }
                 }
             }
+            return sum;
         }
     }
 }

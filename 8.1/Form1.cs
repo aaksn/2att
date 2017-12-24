@@ -35,9 +35,8 @@ namespace _8._1
             };
             this.Controls.Add(label4);
             List<double> list = UtilsW.StringToList<double>(input.Text, ' ');
-            Eight logic = new Eight(list);
-            List<double> ll;
-            logic.ListReverse(out ll);
+            Eight logic = new Eight(list);            
+            List<double> ll = logic.ListReverse();
             label2.Text = UtilsW.ListtoString<double>(ll, ' ');
         }
     }
