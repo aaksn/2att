@@ -59,3 +59,5 @@ H:\2att-master\9.1\obj\x86\Debug\9.1.1.csproj.GenerateResource.Cache
 H:\2att-master\9.1\obj\x86\Debug\9.1.1.csproj.CoreCompileInputs.cache
 H:\2att-master\9.1\obj\x86\Debug\9.1.exe
 H:\2att-master\9.1\obj\x86\Debug\9.1.pdb
+F:\GitHub\2att\9.1\bin\Debug\Interface.dll
+F:\GitHub\2att\9.1\bin\Debug\Interface.pdb
