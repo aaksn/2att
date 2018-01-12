@@ -26,4 +26,3 @@ H:\2att-master\ClassL\obj\Debug\ClassL.csproj.CoreCompileInputs.cache
 H:\2att-master\ClassL\obj\Debug\ClassL.dll
 H:\2att-master\ClassL\obj\Debug\ClassL.pdb
 H:\2att-master\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache
-F:\GitHub\2att\ClassL\obj\Debug\ClassL.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\9.32.2 (Console).exe.config
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\9.32.2 (Console).exe
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\9.32.2 (Console).pdb
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\ClassL.dll
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\Interface.dll
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\ClassL.pdb
+F:\GitHub\2att\9.32.2 (Console)\bin\Debug\Interface.pdb
+F:\GitHub\2att\9.32.2 (Console)\obj\Debug\9.32.2 (Console).csprojResolveAssemblyReference.cache
+F:\GitHub\2att\9.32.2 (Console)\obj\Debug\9.32.2 (Console).csproj.CoreCompileInputs.cache
+F:\GitHub\2att\9.32.2 (Console)\obj\Debug\9.32.2 (Console).exe
+F:\GitHub\2att\9.32.2 (Console)\obj\Debug\9.32.2 (Console).pdb

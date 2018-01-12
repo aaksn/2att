@@ -10,3 +10,9 @@ H:\2att-master\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cach
 H:\2att-master\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
 H:\2att-master\Interface\obj\Debug\Interface.dll
 H:\2att-master\Interface\obj\Debug\Interface.pdb
+F:\GitHub\2att\Interface\bin\Debug\Interface.dll
+F:\GitHub\2att\Interface\bin\Debug\Interface.pdb
+F:\GitHub\2att\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+F:\GitHub\2att\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+F:\GitHub\2att\Interface\obj\Debug\Interface.dll
+F:\GitHub\2att\Interface\obj\Debug\Interface.pdb
