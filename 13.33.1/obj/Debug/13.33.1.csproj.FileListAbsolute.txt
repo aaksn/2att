@@ -38,3 +38,5 @@ H:\2att-master\13.33.1\obj\Debug\13.33.1.csproj.GenerateResource.Cache
 H:\2att-master\13.33.1\obj\Debug\13.33.1.csproj.CoreCompileInputs.cache
 H:\2att-master\13.33.1\obj\Debug\13.33.1.exe
 H:\2att-master\13.33.1\obj\Debug\13.33.1.pdb
+F:\GitHub\2att\13.33.1\bin\Debug\Interface.dll
+F:\GitHub\2att\13.33.1\bin\Debug\Interface.pdb
